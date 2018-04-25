@@ -11,8 +11,6 @@ var drawingRoom = vRViewPlayer('#first-vr-example', {
 
 window.addEventListener('load', drawingRoom);
 
-window.addEventListener('load', boxRoomTemplate);
-
 var setReadyEvents = function(event) {
   console.log('adding on "ready" events');
 

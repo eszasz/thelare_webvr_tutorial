@@ -15,22 +15,22 @@ var setReadyEvents = function(event) {
   console.log('adding on "ready" events');
 
   drawingRoom.addHotspot('spot1', {
-    pitch: -10,
-    yaw: -30,
+    pitch: -15,
+    yaw: -20,
     radius: 0.10,
     distance: 1
   });
 
   drawingRoom.addHotspot('spot2', {
     pitch: 89,
-    yaw: -100,
+    yaw: -20,
     radius: 0.10,
     distance: 1
   });
 
   drawingRoom.addHotspot('spot3', {
     pitch: 0,
-    yaw: -150,
+    yaw: -25,
     radius: 0.10,
     distance: 1
   });
@@ -38,15 +38,15 @@ var setReadyEvents = function(event) {
 
 var setOnClickEvents = function(event) {
   if (event.id == 'spot1') {
-    alert("Spot1")
+    alert("This point represents the sky.")
   }
 
   if (event.id == 'spot2') {
-    alert('Spot2');
+    alert('Here we see a circle of tall buildings.');
   }
 
   if (event.id == 'spot3') {
-    alert(' ?? ');
+    alert(' :) ');
   }
 };
 

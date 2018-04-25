@@ -5,7 +5,7 @@ var vRViewPlayer = function(elementIdName, options) {
 
 var drawingRoom = vRViewPlayer('#first-vr-example', {
   // image: 'assets/dolphins.jpg',
-  image: 'http://www.englishbay.com/google-photo-sphere-of-stanley-park/', 
+  image: 'http://www.englishbay.com/wp-content/uploads/2014/05/PANO_20140518_142918.jpg', 
   is_stereo: true,
 });
 

@@ -5,7 +5,7 @@ var vRViewPlayer = function(elementIdName, options) {
 
 var drawingRoom = vRViewPlayer('#first-vr-example', {
   // image: 'assets/dolphins.jpg',
-  image: 'https://commons.wikimedia.org/wiki/File:Langkawi_Sky_Bridge_Photosphere.jpg', 
+  image: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Langkawi_Sky_Bridge_Photosphere.jpg', 
   is_stereo: true,
 });
 
